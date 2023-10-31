@@ -36,7 +36,7 @@ clean:
 	@make clean 
 	$(RM) $(OBJ)
 fclean : clean
-	@make fclean 
+	# @make fclean 
 	$(RM) $(NAME)
 re : fclean all
 .PHONY: re fclean clean all re
